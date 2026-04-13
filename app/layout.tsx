@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${font.className} antialiased bg-[#1f242c]`}
+      className={`${font.className} antialiased bg-gray-800`}
     >
       <body className="min-h-full flex flex-col">
         <NavContainer/>
