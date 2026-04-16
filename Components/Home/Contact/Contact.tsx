@@ -6,29 +6,29 @@ const Contact = () => {
     <div className="pt-16 pb-16 bg-gray-200">
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 w-[90%] lg:w*-[80%] items-center mx-auto mt-16">
         {/* Contact Form */}
-        <div className="lg:col-span-2 bg-gray-900 rounded-xl p-6">
+        <div className="lg:col-span-2 bg-gray-500 rounded-xl p-6">
           {/* Name Input */}
           <input
             type="text"
             placeholder="Name"
-            className="border-2  border-gray-600 w-full px-6 py-3 rounded-full mb-6 placeholder:text-white text-white"
+            className="border  border-gray-200 w-full px-6 py-3 rounded-full mb-6 placeholder:text-white text-white"
           />
           {/* Email Input */}
           <input
             type="email"
             placeholder="Email"
-            className="border-2 border-gray-600 w-full px-6 py-3 rounded-full mb-6 placeholder:text-white text-white"
+            className="border border-gray-200 w-full px-6 py-3 rounded-full mb-6 placeholder:text-white placeholder:border-gray-200 text-white"
           />
           {/* Message Input */}
           <input
             type="text"
             placeholder="Subject"
-            className="border-2 border-gray-600 w-full px-6 py-3 rounded-full mb-6 placeholder:text-white text-white"
+            className="border border-gray-200 w-full px-6 py-3 rounded-full mb-6 placeholder:text-white placeholder:border-gray-200 text-white"
           />
           {/* Message Input */}
           <textarea
             placeholder="Message"
-            className="border-2 border-gray-600 w-full px-6 py-3 rounded-lg mb-6 placeholder:text-white text-white"
+            className="border border-gray-200 w-full px-6 py-3 rounded-lg mb-6 placeholder:text-white placeholder:border-gray-200 text-white"
             rows={4}
           />
           {/* Submit Button */}
@@ -39,7 +39,7 @@ const Contact = () => {
         {/* Contact Card */}
         <div className="lg:col-span-1">
           {/* Contact Number */}
-          <div className=" p-6 mt-4 mb-4 bg-blue-500 flex items-center space-x-4">
+          <div className=" p-6 mt-4 mb-4 bg-gray-500 flex items-center space-x-4">
             <div className="w-16 h-16 rounded-full bg-orange-400 flex items-center justify-center flex-col">
               <FaArrowRight className="text-white" />
             </div>
@@ -49,7 +49,7 @@ const Contact = () => {
             </div>
           </div>
           {/* Email */}
-          <div className=" p-6 mt-4 mb-4  bg-blue-500 flex items-center space-x-4">
+          <div className=" p-6 mt-4 mb-4 bg-gray-500 flex items-center space-x-4">
             <div className="w-16 h-16 rounded-full bg-orange-400 flex items-center justify-center flex-col">
               <FaArrowRight className="text-white" />
             </div>
@@ -59,7 +59,7 @@ const Contact = () => {
             </div>
           </div>
           {/* Address */}
-          <div className=" p-6 mt-4 mb-4  bg-blue-500 flex items-center space-x-4">
+          <div className=" p-6 mt-4 mb-4 bg-gray-500 flex items-center space-x-4">
             <div className="w-16 h-16 rounded-full bg-orange-400 flex items-center justify-center flex-col">
               <FaArrowRight className="text-white" />
             </div>
